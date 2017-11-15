@@ -12,6 +12,26 @@
 <body>
     <div class="container">
            <ot-titlebar class="titlebar">
+               <script>
+                    const { remote } = require('electron');
+                    
+                    const win = remote.getCurrentWindow();
+                    
+                    $('.titlebar__icon--minimize').click(function() {
+                        win.minimize();
+                    })
+                    
+                    $('.titlebar__icon--expand').click(function() {
+                        if (!win.isMaximized()) {
+                            win.maximize();
+                     } else {
+                        win.unmaximize();
+                     }
+                    });
+                    
+                    $('.titlebar__icon--close').click(function() {
+                        win.close();
+                    });</script>
                 <div class="titlebar__section titlebar__section--left">
                     <tw-icon-menu class="titlebar__icon--menu titlebar__icon">
                         <svg class="" width="10px" height="11px" viewBox="0 0 10 11">
