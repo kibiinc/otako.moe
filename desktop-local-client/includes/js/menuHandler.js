@@ -6,7 +6,7 @@
  * 
  */
 
-const $ = require('jquery');
+const $ = require('https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js');
 const { remote } = require('electron');
 
 const win = remote.getCurrentWindow();

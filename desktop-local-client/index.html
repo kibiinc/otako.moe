@@ -5,80 +5,59 @@
     <title id="title">Otakoapp</title>
     <link rel="stylesheet" href="./css/login.css">
     <link rel="stylesheet" href="./css/toolbar.css">
-    <script src="./js/toolbar.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 </head>
 
 <body>
     <div class="container">
-           <ot-titlebar class="titlebar">
-               <script>
-                    const { remote } = require('electron');
-                    
-                    const win = remote.getCurrentWindow();
-                    
-                    $('.titlebar__icon--minimize').click(function() {
-                        win.minimize();
-                    })
-                    
-                    $('.titlebar__icon--expand').click(function() {
-                        if (!win.isMaximized()) {
-                            win.maximize();
-                     } else {
-                        win.unmaximize();
-                     }
-                    });
-                    
-                    $('.titlebar__icon--close').click(function() {
-                        win.close();
-                    });</script>
-                <div class="titlebar__section titlebar__section--left">
-                    <tw-icon-menu class="titlebar__icon--menu titlebar__icon">
-                        <svg class="" width="10px" height="11px" viewBox="0 0 10 11">
-                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                <g class="fill">
-                                    <g transform="translate(0.000000, 1.000000)">
-                                        <rect x="0" y="1" width="10" height="1"></rect>
-                                        <rect x="0" y="4" width="10" height="1"></rect>
-                                        <rect x="0" y="7" width="10" height="1"></rect>
-                                    </g>
+        <ot-titlebar class="titlebar">
+            <div class="titlebar__section titlebar__section--left">
+                <tw-icon-menu class="titlebar__icon--menu titlebar__icon">
+                    <svg class="" width="10px" height="11px" viewBox="0 0 10 11">
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g class="fill">
+                                <g transform="translate(0.000000, 1.000000)">
+                                    <rect x="0" y="1" width="10" height="1"></rect>
+                                    <rect x="0" y="4" width="10" height="1"></rect>
+                                    <rect x="0" y="7" width="10" height="1"></rect>
                                 </g>
                             </g>
-                        </svg>
-                        </ot-icon-menu>
-                </div>
-                <p class="titlebar__title"></p>
-                <div class="titlebar__section titlebar__section--middle"></div>
-                <div class="titlebar__section titlebar__section--right">
-                    <ot-icon-minimize class="titlebar__icon--minimize titlebar__icon">
-                        <svg class="" width="10px" height="11px" viewBox="0 0 10 11">
-                            <g stroke="none" stroke-width="" fill="none" fill-rule="evenodd">
-                                <g class="fill">
-                                    <rect id="minimize" x="0" y="5" width="10" height="1"></rect>
-                                </g>
+                        </g>
+                    </svg>
+                    </ot-icon-menu>
+            </div>
+            <p class="titlebar__title"></p>
+            <div class="titlebar__section titlebar__section--middle"></div>
+            <div class="titlebar__section titlebar__section--right">
+                <ot-icon-minimize class="titlebar__icon--minimize titlebar__icon">
+                    <svg class="" width="10px" height="11px" viewBox="0 0 10 11">
+                        <g stroke="none" stroke-width="" fill="none" fill-rule="evenodd">
+                            <g class="fill">
+                                <rect id="minimize" x="0" y="5" width="10" height="1"></rect>
                             </g>
-                        </svg>
-                    </ot-icon-minimize>
-                    <ot-icon-expand class="titlebar__icon--expand titlebar__icon">
-                        <svg class="" width="10px" height="11px" viewBox="0 0 10 11">
-                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                <g fill-rule="nonzero" class="fill">
-                                    <path d="M1,9 L9,9 L9,1 L1,1 L1,9 Z M0,0 L10,0 L10,10 L0,10 L0,0 Z"></path>
-                                </g>
+                        </g>
+                    </svg>
+                </ot-icon-minimize>
+                <ot-icon-expand class="titlebar__icon--expand titlebar__icon">
+                    <svg class="" width="10px" height="11px" viewBox="0 0 10 11">
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g fill-rule="nonzero" class="fill">
+                                <path d="M1,9 L9,9 L9,1 L1,1 L1,9 Z M0,0 L10,0 L10,10 L0,10 L0,0 Z"></path>
                             </g>
-                        </svg>
-                    </ot-icon-expand>
-                    <ot-icon-close class="titlebar__icon--close titlebar__icon">
-                        <svg class="" width="10px" height="11px" viewBox="0 0 10 11">
-                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                <g fill-rule="nonzero" class="fill">
-                                    <path d="M5,4.82101759 L0.678982409,0.5 L0,1.17898241 L4.32101759,5.5 L0,9.82101759 L0.678982409,10.5 L5,6.17898241 L9.32101759,10.5 L10,9.82101759 L5.67898241,5.5 L10,1.17898241 L9.32101759,0.5 L5,4.82101759 Z"></path>
-                                </g>
+                        </g>
+                    </svg>
+                </ot-icon-expand>
+                <ot-icon-close class="titlebar__icon--close titlebar__icon">
+                    <svg class="" width="10px" height="11px" viewBox="0 0 10 11">
+                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g fill-rule="nonzero" class="fill">
+                                <path d="M5,4.82101759 L0.678982409,0.5 L0,1.17898241 L4.32101759,5.5 L0,9.82101759 L0.678982409,10.5 L5,6.17898241 L9.32101759,10.5 L10,9.82101759 L5.67898241,5.5 L10,1.17898241 L9.32101759,0.5 L5,4.82101759 Z"></path>
                             </g>
-                        </svg>
-                    </ot-icon-close>
-                </div>
-            </ot-titlebar>
+                        </g>
+                    </svg>
+                </ot-icon-close>
+            </div>
+        </ot-titlebar>
         <!-- <nav> 
             <div id="showTitle" style="
            width: 0px; /* don't remove this */
