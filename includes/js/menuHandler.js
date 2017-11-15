@@ -11,18 +11,36 @@ const { remote } = require('electron');
 
 const win = remote.getCurrentWindow();
 
-$('.titlebar__icon--minimize').click(function() {
+$('.minimize').click(function() {
     win.minimize();
 })
 
-$('.titlebar__icon--expand').click(function() {
+$('.maximize').click(function() {
     if (!win.isMaximized()) {
         win.maximize();
+    
  } else {
     win.unmaximize();
  }
 });
 
-$('.titlebar__icon--close').click(function() {
+$('.close').click(function() {
+    win.close();
+});
+
+$('.minimize-app').click(function() {
+    win.minimize();
+})
+
+$('.maximize-app').click(function() {
+    if (!win.isMaximized()) {
+        win.maximize();
+    
+ } else {
+    win.unmaximize();
+ }
+});
+
+$('.close-app').click(function() {
     win.close();
 });
