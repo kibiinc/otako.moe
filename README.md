@@ -1,2 +1,2 @@
 # otako.moe
-client i guess idk
+**PUBLIC BRANCH IS HOSTED PUBLICALLY FOR PUBLIC ACCESS**
