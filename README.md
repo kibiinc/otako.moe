@@ -1,4 +1,4 @@
-# otako.moe
+# otako.moe/NI-BRANCH
 This is the frontend and UI for Otako that is hosted. 
 
 Multiple versions may be shown for different browsers and different support.
