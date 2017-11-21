@@ -162,7 +162,7 @@ button, label, input {
 }
 
 .ot-btn-submit {
-    background-color: rgb(21, 0, 255);
+    background-color: rgba(7, 255, 131, 0.644);
     border-radius: 10px;
     color: #fff;
     display: inline-block;
@@ -171,15 +171,11 @@ button, label, input {
     padding: 0;
     text-align: center;
     text-decoration: none;
-    width: 5%;
+    width: 6%;
     outline: 0;
     -webkit-user-select: none;  
     -moz-user-select: none;    
     -ms-user-select: none;      
     user-select: none;
     border: 1;
-}
-
-.ot-btn-submit:hover {
-    background-color: rgba(255, 81, 0, 0.808)
 }
