@@ -3,7 +3,7 @@
 
 <head>
     <title id="title">Otakoapp</title>
-    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/app.css">
     <link rel="stylesheet" href="./css/toolbar.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 </head>
@@ -80,7 +80,7 @@
                     <a href="pages/register.html">Register</a>
                 </small>
                 <form>
-                    <button class="button-a" type="submit">Login</button>
+                    <button class="ot-btn-submit" type="submit">Login</button>
                 </form>
                 <script src="./js/login.js"></script>
                 <p class="no-highlight"></p>
@@ -90,6 +90,20 @@
                 </svg>
                 <br>
                 <b class="pos-fix-text no-highlight">Note that this app is under construction.</b>
+                <script>
+                    const login = document.querySelector('form')
+                    login.addEventListener('submit', submitForm)
+
+                    function submitForm(e) {
+                        location.href = './includes/app.html'
+                        e.preventDefault();
+                        console.log("It works!")
+
+                        if (bad_login) {
+                            console.log("It works but bad login info provided.")
+                        }
+                    }
+                </script>
             </div>
         </section>
         <script src="./js/init.js"></script>
