@@ -7,7 +7,7 @@ import Error404 from '@/components/Error404'
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',
+  // mode: 'history', not using history mode now
   routes: [
     {
       path: '/',

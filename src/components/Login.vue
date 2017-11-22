@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h1>Otakoapp</h1>
+  <div :class="theme" class="login-page">
+    <h1 class="title">Otakoapp</h1>
     <div class="login-container">
       <form class="login-form" action="" method="post">
         <div class="login-input">
@@ -11,23 +11,36 @@
         </div>
       </form>
     </div>
+    <theme-selector/>
   </div>
 </template>
 
 <script>
+import ThemeSelector from '@/components/ThemeSelector'
+
 export default {
   name: 'Login',
   data () {
     return {
+    }
+  },
+  components: {
+    'theme-selector': ThemeSelector
+  },
+  computed: {
+    theme () {
+      return this.$store.state.theme
     }
   }
 }
 </script>
 
 <style scoped lang="sass">
-.login-container
+.login-page
   text-align: center
+  width: 100%
+  height: 100%
 
   .login-input
-    padding: 20px
+    padding: 30px
 </style>
