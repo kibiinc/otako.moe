@@ -2,7 +2,7 @@
 
 > A Front-end for Otako.moe
 
-## Build Setup
+## Build Setup for Devs
 
 ``` bash
 # install dependencies
