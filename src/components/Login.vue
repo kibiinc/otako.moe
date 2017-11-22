@@ -3,8 +3,12 @@
     <h1>Otakoapp</h1>
     <div class="login-container">
       <form class="login-form" action="" method="post">
-        Email:<br><input type="email" name="" value=""><br>
-        Password:<br><input type="password" name="" value="">
+        <div class="login-input">
+          Email:<br><input type="email" name="" value=""><br>
+        </div>
+        <div class="login-input">
+          Password:<br><input type="password" name="" value="">
+        </div>
       </form>
     </div>
   </div>
@@ -20,8 +24,10 @@ export default {
 }
 </script>
 
-<style scoped>
-.login-container {
-  margin: auto;
-}
+<style scoped lang="sass">
+.login-container
+  text-align: center
+
+  .login-input
+    padding: 20px
 </style>
