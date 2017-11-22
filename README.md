@@ -1,9 +1,21 @@
 # otako.moe
-This is the frontend and UI for Otako that is hosted. 
 
-Multiple versions may be shown for different browsers and different support.
+> A Front-end for Otako.moe
 
-This contains all static files, UI, HTML, and our web library that supports the creation of bots through Otako's API embedded within a web browser. **If you would like access to this library, look more into the otako.js library**
+## Build Setup
 
-# Contributing
-Contributing can be done following our main repo's specificaiton.
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+```
+
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
