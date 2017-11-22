@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Okato.moe</h1>
+    <h1>Otakoapp</h1>
   </div>
 </template>
 
