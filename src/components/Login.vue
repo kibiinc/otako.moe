@@ -1,5 +1,6 @@
 <template>
   <div :class="theme" class="login-page">
+    <menu-bar/>
     <h1 class="title">Otakoapp</h1>
     <div class="login-container">
       <form class="login-form" action="" method="post">
@@ -17,6 +18,7 @@
 
 <script>
 import ThemeSelector from '@/components/ThemeSelector'
+import MenuBar from '@/components/MenuBar'
 
 export default {
   name: 'Login',
@@ -25,7 +27,8 @@ export default {
     }
   },
   components: {
-    'theme-selector': ThemeSelector
+    'theme-selector': ThemeSelector,
+    'menu-bar': MenuBar
   },
   computed: {
     theme () {
