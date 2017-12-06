@@ -14,6 +14,7 @@
       </form>
     </div>
     <theme-selector/>
+    <p class="beta-note">This app is under alpha stage. Some features may not be complete.</p>
   </div>
  </div>
 </template>
@@ -47,9 +48,14 @@ export default {
 
 .login-input
   padding: 30px
+  font-family: 'Avenir', Helvetica, Arial, sans-serif
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  text-align: center
 
 .auth
   position: absolute
-  text-align: center
-  top: 250px
+  padding-top: 250px
+  padding-left: 486px
+  margin-left: 250px
 </style>
