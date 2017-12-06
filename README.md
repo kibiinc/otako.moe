@@ -3,7 +3,7 @@
 > Main frontend app for otakoclient.
 
 ## What is this?
-This is the main client that [otakoclient](https://github.com/KibiiTV/otakoclient).
+This is the main client that [otakoclient](https://github.com/KibiiTV/otakoclient) is using.
 The main app is basically hosted here and the otakoclient is the "backend" for the app.
 
 ### Build Setup for Devs
