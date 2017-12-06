@@ -9,7 +9,10 @@ Join our discord here: https://discord.gg/3CAeDZj
 **Explain the problem/question in detail.**
 
 
-**Provide an error code (optional).**
+**Provide an error code. (optional)**
 
 
 **Provide some code where the error occured.**
+```js
+// Change 'js' to something else if the error occured in another language.
+```
