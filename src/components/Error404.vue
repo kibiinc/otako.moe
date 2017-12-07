@@ -2,7 +2,7 @@
   <div>
     <h1 class="title">Error 404</h1>
     <router-link :to="{ name: 'Main' }">
-      <p>Get Back to Safety</p>
+      <p class="safety">Get Back to Safety</p>
     </router-link>
   </div>
 </template>
@@ -14,6 +14,6 @@ export default {
 </script>
 
 <style scoped lang="sass">
-html
+.safety
   text-align: center
 </style>

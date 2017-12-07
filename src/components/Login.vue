@@ -13,6 +13,7 @@
         </div>
       </form>
     </div>
+    <login/>
     <theme-selector/>
     <p class="beta-note">This app is under alpha stage. Some features may not be complete.</p>
   </div>
@@ -20,8 +21,9 @@
 </template>
 
 <script>
-import ThemeSelector from "@/components/ThemeSelector";
-import MenuBar from "@/components/MenuBar";
+import ThemeSelector from '@/components/ThemeSelector'
+import MenuBar from '@/components/MenuBar'
+import LoginButton from '@/components/LoginButton'
 
 export default {
   name: "Login",
@@ -29,15 +31,16 @@ export default {
     return {};
   },
   components: {
-    "theme-selector": ThemeSelector,
-    "menu-bar": MenuBar
+    'theme-selector': ThemeSelector,
+    'menu-bar': MenuBar,
+    'login': LoginButton
   },
   computed: {
     theme() {
-      return this.$store.state.theme;
+      return this.$store.state.theme
     }
   }
-};
+}
 </script>
 
 <style scoped lang="sass">
@@ -54,8 +57,6 @@ export default {
   text-align: center
 
 .auth
-  position: absolute
   padding-top: 250px
-  padding-left: 486px
-  margin-left: 250px
+  padding-left: 727px
 </style>

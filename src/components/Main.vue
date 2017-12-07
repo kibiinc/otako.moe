@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 class="title">Main Page</h1>
-    <p class="subtitle">hue</p>
+    <p class="subtitle">hehee</p>
   </div>
 </template>
 
