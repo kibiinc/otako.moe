@@ -1,4 +1,4 @@
-<template>
+<template> <!-- We should find SVGs for the toolbar. -->
     <div class="menu" :class="{ hidden: !visible }">
       <div class="menu-item">&minus;</div>
       <div class="menu-item">&square;</div>
@@ -15,7 +15,7 @@ export default {
   }
 }
 </script>
-
+  
 <style scoped lang="sass">
 
 .menu
