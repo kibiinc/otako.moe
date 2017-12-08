@@ -6,6 +6,16 @@
   </div>
 </template>
 
+<<script>
+export default {
+  name: 'LoginButton'
+  data () {
+    
+  }
+}
+</script>
+
+
 <style scoped lang="sass">
 .submit
   text-align: center
