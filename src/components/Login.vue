@@ -58,6 +58,7 @@ export default {
   text-align: center
 
 .auth
-  margin: 40px 490px auto
+  margin: 40px auto
   width: 940px
+  padding-top: 192px
 </style>
