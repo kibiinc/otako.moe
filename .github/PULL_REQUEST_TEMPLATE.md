@@ -2,6 +2,6 @@
 
 **Will this affect anything major in the system or do you think it will?**
 
-- [] Yes.
-- [] Unsure.
-- [] No.    
+- [ ] Yes.
+- [ ] Unsure.
+- [ ] No.    
