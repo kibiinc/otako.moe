@@ -6,10 +6,10 @@
      <div class="login-container">
       <form class="login-form" action="" method="post">
         <div class="login-input">
-          Email:<br><input type="email" name="" value=""><br>
+          <br><input type="email" name="" value="" placeholder="Email"><br>
         </div>
         <div class="login-input">
-          Password:<br><input type="password" name="" value="">
+          <br><input type="password" name="" value="" placeholder="Password">
         </div>
       </form>
     </div>
