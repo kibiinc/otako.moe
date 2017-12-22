@@ -1,22 +1,16 @@
 <template>
-  <div class="submit">
-      <button>
-          Login
-      </button>
-  </div>
+  <button class="btn-login">
+    Login
+  </button>
 </template>
 
-<<script>
-export default {
-  name: 'LoginButton'
-  data () {
-    
-  }
-}
+<script>
 </script>
 
 
 <style scoped lang="sass">
-.submit
-  text-align: center
+.btn-login
+  border-color: orange
+  background-color: orange
+  border-radius: 3px
 </style>
