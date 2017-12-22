@@ -1,7 +1,9 @@
 <template>
+  <!-- for now, client'll be unlocked -->
   <div>
-    <h1 class="title">Main Page</h1>
-    <p class="subtitle">this should redirect to the login or main page by default</p>
+    <div class="chan-wrapper">
+      <!-- insert guilds here. -->
+    </div>
   </div>
 </template>
 
@@ -12,4 +14,10 @@ export default {
 </script>
 
 <style scoped lang="sass">
+.chan-wrapper
+  width: 70px
+  overflow: hidden
+  background-color: #202225
+  display: flex
+  height: -webkit-fill-available
 </style>
