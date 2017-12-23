@@ -1,12 +1,12 @@
 <template>
   <!-- for now, client'll be unlocked -->
+  <div class="main flex"> 
+    <p>test<p>
     <div class="chan-wrapper">
       <div class="scroll">
         <!-- insert guilds here. -->
-      <div class="main container flex">
-
+      </div>
     </div>
-   </div>
   </div>
 </template>
 
@@ -18,6 +18,9 @@ export default {
 </script>
 
 <style scoped lang="sass">
+.main, flex
+  font-family: 'Roboto', sans-serif
+
 .chan-wrapper
   width: 70px
   overflow: hidden
@@ -31,8 +34,12 @@ export default {
 
 .flex
   width: 100%
-  background-color: #707c8e
 
-.main, container
+.main
+  background-color: #635e59
+  text-align: center
   
+p 
+  margin: 0
+  height: 0
 </style>
