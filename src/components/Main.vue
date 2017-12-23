@@ -4,9 +4,9 @@
       <div class="chan-wrapper">
         <div class="scroll">
         </div>
-      </div>
-      <div class="srv-chans column">
-        <p>test</p>
+        <div class="srv-chans column">
+          <p>test</p>
+        </div>
       </div>
     </div>
 </template>
