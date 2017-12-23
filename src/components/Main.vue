@@ -3,7 +3,8 @@
     <div class="chan-wrapper">
       <div class="scroll">
         <!-- insert guilds here. -->
-      <div class="main container">
+      <div class="main container flex">
+
     </div>
    </div>
   </div>
@@ -31,4 +32,7 @@ export default {
 .flex
   width: 100%
   background-color: #707c8e
+
+.main, container
+  
 </style>
