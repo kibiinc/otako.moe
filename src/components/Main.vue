@@ -1,13 +1,16 @@
 <template>
   <!-- for now, client'll be unlocked -->
-  <div>
     <div class="chan-wrapper">
-      <!-- insert guilds here. -->
+      <div class="scroll">
+        <!-- insert guilds here. -->
+      <div class="main container">
     </div>
+   </div>
   </div>
 </template>
 
 <script>
+// insert login script here :^)
 export default {
   name: 'Main'
 }
@@ -20,4 +23,12 @@ export default {
   background-color: #202225
   display: flex
   height: -webkit-fill-available
+
+.chan-wrapper, .scroll
+  overflow-x: hidden
+  overflow-y: scroll
+
+.flex
+  width: 100%
+  background-color: #707c8e
 </style>
