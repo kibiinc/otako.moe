@@ -5,7 +5,9 @@
         <div class="scroll">
         </div>
       </div>
-      <p>test</p>
+      <div class="srv-chans column">
+        <p>test</p>
+      </div>
     </div>
 </template>
 
@@ -17,6 +19,10 @@ export default {
 </script>
 
 <style scoped lang="sass">
+html
+  overflow-x: hidden
+  overflow-y: hidden
+
 .main, flex
   font-family: 'Roboto', sans-serif
 
@@ -55,6 +61,7 @@ usr-info
   background-color: #8c857e
   height: 240px
   width: 444px
+  margin-left: 70px
 
 .column
   flex-direction: column
