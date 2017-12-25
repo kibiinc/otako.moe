@@ -1,11 +1,11 @@
 <template>
   <!-- for now, client'll be unlocked -->
     <div class="main flex">
+      <div class="srv-chans">
+          <p>test</p>
+      </div>
       <div class="chan-wrapper">
         <div class="scroll">
-        </div>
-        <div class="srv-chans column">
-          <p>test</p>
         </div>
       </div>
     </div>
@@ -58,12 +58,12 @@ usr-info
   color: #fff
 
 .srv-chans
-  background-color: #8c857e
+  background-color: #ffffff
   height: 240px
   width: 444px
   margin-left: 70px
-
-.column
+  margin-right: 0
+  -webkit-box-direction: normal
+  -webkit-box-orient: vertical
   flex-direction: column
-
 </style>
