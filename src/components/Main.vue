@@ -4,11 +4,14 @@
      <!-- <div class="srv-chans">
           <p>test</p>
       </div> -->
+      <div class="friends flex">
+        <p id="title-frens">aa</p>
+      </div>
       <div class="chan-wrapper">
         <div class="scroll">
-        </div>
       </div>
     </div>
+  </div>
 </template>
 
 <script>
@@ -66,4 +69,11 @@ usr-info
   -webkit-box-direction: normal
   -webkit-box-orient: vertical
   flex-direction: column
+  
+.friends
+  background-color: #36393f
+  width: 1920px;
+  height: 300px;
+  padding-left: 0px;
+  margin-left: 71px;
 </style>
