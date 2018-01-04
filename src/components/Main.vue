@@ -1,9 +1,9 @@
 <template>
   <!-- for now, client'll be unlocked -->
     <div class="main flex">
-      <div class="srv-chans">
+     <!-- <div class="srv-chans">
           <p>test</p>
-      </div>
+      </div> -->
       <div class="chan-wrapper">
         <div class="scroll">
         </div>
