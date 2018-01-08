@@ -9,9 +9,12 @@
       </div>
       <div class="chan-wrapper">
         <div class="scroll">
+          <div class="guild">
+            <p>xd</p>
+          </div>
+       </div>
       </div>
     </div>
-  </div>
 </template>
 
 <script>
@@ -76,4 +79,9 @@ usr-info
   height: 300px;
   padding-left: 0px;
   margin-left: 71px;
+
+.guild
+  height: 36px
+  width: 36px
+  margin-left: 15px
 </style>
