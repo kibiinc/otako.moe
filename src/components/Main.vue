@@ -1,16 +1,16 @@
 <template>
   <!-- for now, client'll be unlocked -->
     <div class="main flex">
+      <div class="list-friend">
+        <p>ok</p>
+      </div>
      <!-- <div class="srv-chans">
           <p>test</p>
       </div> -->
-      <div class="friends flex">
-        <p id="title-frens">aa</p>
-      </div>
       <div class="chan-wrapper">
         <div class="scroll">
           <div class="guild">
-            <p>xd</p>
+            <p id="white" draggable="true">xd</p>
           </div>
        </div>
       </div>
@@ -44,10 +44,11 @@ html
   overflow-y: scroll
 
 .flex
-  width: 100%
+  width: auto
+  height: auto
 
 .main
-  background-color: #635e59
+  background-color: #36393e
   text-align: center
   
 p 
@@ -83,5 +84,10 @@ usr-info
 .guild
   height: 36px
   width: 36px
-  margin-left: 15px
+  align-items: center
+  padding-top: 15px
+  padding-left: 15px
+
+#white
+  color: white
 </style>
