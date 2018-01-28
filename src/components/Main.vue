@@ -50,12 +50,12 @@ html
 .main
   background-color: #36393e
   text-align: center
-  
+
 p 
   margin: 0
   height: 0
 
-usr-info
+.usr-info
   align-items: center
   display: flex
   margin-bottom: 1px
@@ -73,13 +73,13 @@ usr-info
   -webkit-box-direction: normal
   -webkit-box-orient: vertical
   flex-direction: column
-  
+
 .friends
   background-color: #36393f
-  width: 1920px;
-  height: 300px;
-  padding-left: 0px;
-  margin-left: 71px;
+  width: 1920px
+  height: 300px
+  padding-left: 0px
+  margin-left: 71px
 
 .guild
   height: 36px
@@ -90,4 +90,13 @@ usr-info
 
 #white
   color: white
+
+.list-friend
+  position: absolute
+  right: 1782px
+  top: 0
+  width: 230px
+  left: 71px
+  background-color: white
+  height: -webkit-fill-available
 </style>

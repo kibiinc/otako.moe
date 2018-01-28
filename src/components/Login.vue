@@ -16,7 +16,6 @@
     <login/>
     <br>
     <br>
-    <theme-selector/>
     <p class="beta-note">This app is under alpha stage. Some features may not be complete.</p>
   </div>
  </div>

@@ -1,3 +1,8 @@
+<!--
+we need this button to have a script.
+so this is why I created a LoginButton file.
+-->
+
 <template>
   <button class="btn-login">
     Login
