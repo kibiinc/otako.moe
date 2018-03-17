@@ -3,10 +3,10 @@
     <div class="main flex">
       <div class="list-friend">
         <p>ok</p>
-      </div>
-     <!-- <div class="srv-chans">
+      </div> 
+      <div class="srv-chans">
           <p>test</p>
-      </div> -->
+      </div>
       <div class="chan-wrapper">
         <div class="scroll">
           <div class="guild">
@@ -18,7 +18,7 @@
 </template>
 
 <script>
-// insert login script here :^)
+/* eslint-disable */
 export default {
   name: 'Main'
 }

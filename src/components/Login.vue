@@ -24,7 +24,6 @@
 <script>
 import ThemeSelector from '@/components/ThemeSelector'
 import MenuBar from '@/components/MenuBar'
-import LoginButton from '@/components/LoginButton'
 
 export default {
   name: 'Login',
@@ -33,8 +32,7 @@ export default {
   },
   components: {
     'theme-selector': ThemeSelector,
-    'menu-bar': MenuBar,
-    'login': LoginButton
+    'menu-bar': MenuBar
   },
   computed: {
     theme () {
@@ -61,4 +59,8 @@ export default {
   margin: 40px 490px auto
   width: 940px
   padding-top: 192px
+
+#ver
+  float: right
+  padding-bottom: 
 </style>
