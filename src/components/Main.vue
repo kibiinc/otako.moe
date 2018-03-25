@@ -17,8 +17,8 @@
 <script>
 /* eslint-disable */
 export default {
-  name: "Main"
-};
+  name: 'Main'
+}
 </script>
 
 <style scoped lang="sass">
