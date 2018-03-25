@@ -1,12 +1,9 @@
 <template>
   <!-- for now, client'll be unlocked -->
     <div class="main flex">
-      <div class="list-friend">
+      <!--<div class="list-friend">
         <p>ok</p>
-      </div> 
-      <div class="srv-chans">
-          <p>test</p>
-      </div>
+      </div>-->
       <div class="chan-wrapper">
         <div class="scroll">
           <div class="guild">
@@ -20,8 +17,8 @@
 <script>
 /* eslint-disable */
 export default {
-  name: 'Main'
-}
+  name: "Main"
+};
 </script>
 
 <style scoped lang="sass">
@@ -63,16 +60,6 @@ p
   height: 52px
   background: rgba(32,34,37,.3)
   color: #fff
-
-.srv-chans
-  background-color: #ffffff
-  height: 240px
-  width: 444px
-  margin-left: 70px
-  margin-right: 0
-  -webkit-box-direction: normal
-  -webkit-box-orient: vertical
-  flex-direction: column
 
 .friends
   background-color: #36393f
